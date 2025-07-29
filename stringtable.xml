@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="AITA_Scenario">
+	<Package name="">
+		<Container name="scenario_info">
+			<Key ID="STR_scenario_title">
+				<Original>Clandestine Sunrise</Original>
+			</Key>
+			<Key ID="STR_scenario_desc">
+				<Original>Lead a reconnaissance squad, stealthily destroying enemy targets and assassinating officers.</Original>
+				<Italian>Guida una squadra di ricognizione, distruggendo obiettivi nemici furtivamente e assassinando ufficiali.</Italian>
+			</Key>
+			<Key ID="STR_scenario_author">
+				<Original>Rallo (formerly: Ombra)</Original>
+				<Original>Rallo (in precedenza: Ombra)</Original>
+			</Key>
+			<Key ID="STR_INF_scenario_town">
+				<Original>Pekfas Bay,</Original>
+			</Key>
+			<Key ID="STR_INF_scenario_country">
+				<Original>North-East Altis</Original>
+			</Key>
+			<Key ID="STR_INF_squad_army">
+				<Original>NATO Altis Forces</Original>
+			</Key>
+			<Key ID="STR_INF_briefing">
+				<Original>Briefing.&lt;br/&gt;New Line.&lt;br/&gt;&lt;br/&gt;Double line.</Original>
+				<Italian>Briefing.&lt;br/&gt;A capo.&lt;br/&gt;&lt;br/&gt;Doppio a capo.</Italian>
+			</Key>
+		</Container>
+		<Container name="framework_revive">
+			<Key ID="STR_revive_heal">
+				<Original>Heal</Original>
+				<Italian>Cura</Italian>
+			</Key>
+			<Key ID="STR_revive_drag">
+				<Original>Drag</Original>
+				<Italian>Trascina</Italian>
+			</Key>
+			<Key ID="STR_revive_release">
+				<Original>Release</Original>
+				<Italian>Lascia</Italian>
+			</Key>
+			<Key ID="STR_revive_suicide">
+				<Original>Suicide</Original>
+				<Italian>Suicidati</Italian>
+			</Key>
+			<Key ID="STR_revive_killedby">
+				<Original>has been killed by</Original>
+				<Italian>e' stato ucciso da</Italian>
+			</Key>
+			<Key ID="STR_revive_bleedout">
+				<Original>You will bleedout in</Original>
+				<Italian>Morte per dissanguamento in</Italian>
+			</Key>
+			<Key ID="STR_revive_seconds">
+				<Original>seconds.</Original>
+				<Italian>secondi.</Italian>
+			</Key>
+			<Key ID="STR_revive_medicnearby">
+				<Original>Nearby medic:</Original>
+				<Italian>Medico vicino:</Italian>
+			</Key>
+			<Key ID="STR_revive_nomedicnearby">
+				<Original>No medic nearby.</Original>
+				<Italian>Nessun medico nelle vicinanze.</Italian>
+			</Key>
+			<Key ID="STR_revive_stuck">
+				<Original>Press 'C' if you cannot move.</Original>
+				<Italian>Premi 'C' se non riesci a muoverti.</Italian>
+			</Key>
+			<Key ID="STR_support_vehicle_airdrop_dropping">
+				<Original>Charon 1-1 dropping package. Good luck.</Original>
+				<Italian>Charon 1-1 al rilascio. Buona fortuna.</Italian>
+			</Key>
+		</Container>
+		<Container name="framework_functions">
+			<Key ID="STR_misc_frameworkloaded">
+				<Original>Rallo Framework loaded succesfully.</Original>
+				<Italian>Rallo Framework caricato con successo.</Italian>
+			</Key>
+			<Key ID="STR_misc_arsenal">
+				<Original>Virtual Arsenal</Original>
+				<Italian>Arsenale Virtuale</Italian>
+			</Key>
+			<Key ID="STR_misc_vehicle_unflip">
+				<Original>Unflip</Original>
+				<Italian>Gira veicolo</Italian>
+			</Key>
+			
+			<Key ID="STR_misc_drone_drop">
+				<Original>Drop</Original>
+				<Italian>Sgancia esplosivo</Italian>
+			</Key>
+			<Key ID="STR_misc_drone_resupply">
+				<Original>Resupply drone</Original>
+				<Italian>Carica esplosivo</Italian>
+			</Key>
+			<Key ID="STR_misc_drone_unable">
+				<Original>Unable to resupply drone. Make sure you have valid ammunitions available in your inventory.</Original>
+				<Italian>Impossibile ricaricare drone. Assicurati di avere delle munizioni adeguate nel tuo inventario.</Italian>
+			</Key>
+		</Container>
+		<Container name="dialogues">
+			<Key ID="STR_dialogue_intro">
+			 	<Original>Proceed to the infiltration point on the southern coast. An allied contact is waiting for you at the ruins north of there.</Original> 
+    			<Italian>Procedere al punto d'infiltrazione sulla costa meridionale. Vi aspetta un contatto alleato alle rovine a nord di lì.</Italian>
+			</Key>
+			<Key ID="STR_dialogue_chat_line_1"> 
+				<Original>Hey there! Good to see you.</Original> 
+				<Italian>Ehi qui! Felice di vedervi.</Italian>
+			</Key>
+			<Key ID="STR_dialogue_chat_line_2"> 
+				<Original>I've got intel and objectives for you. It'll be daylight soon so I'll be quick.</Original> 
+				<Italian>Ho informazioni e obiettivi per voi. Fara' giorno presto quindi saro' veloce.</Italian>
+			</Key>
+			<Key ID="STR_dialogue_chat_line_3"> 
+				<Original>There are several enemy outposts northeast of here.</Original> 
+				<Italian>Sono presenti numerosi avamposti nemici a nordest di qui.</Italian>
+			</Key>
+			<Key ID="STR_dialogue_chat_line_4"> 
+				<Original>They've got a Tigris in the northwesternmost camp—you'll need to destroy it. Hope you've got some Satchel charges with you.</Original> 
+				<Italian>Hanno un Tigris nel campo piu' a nord-ovest e dovrete distruggerlo. Spero abbiate delle cariche Satchel con voi.</Italian>
+			</Key>
+			<Key ID="STR_dialogue_chat_line_5"> 
+				<Original>There's also a stolen NATO convoy load. The crates are held at the eastern camp. Eliminate the enemies, resupply, and blow everything up.</Original> 
+				<Italian>C'e' anche un carico di convoglio NATO che e' stato rubato. Le casse sono tenute al campo ad est. Eliminate i nemici, rifornitevi e fate saltare tutto.</Italian>
+			</Key>
+			<Key ID="STR_dialogue_chat_line_6"> 
+				<Original>The outposts are overseen by an officer hiding in a house between them. We believe he has valuable intel. Kill him and retrieve it.</Original> 
+				<Italian>Gli avamposti sono sorvegliati da un ufficiale che si rintana in una casa tra gli avamposti. Pensiamo che abbia informazioni importanti con lui. Uccidetelo e recuperatele.</Italian>
+			</Key>
+			<Key ID="STR_dialogue_chat_line_7"> 
+				<Original>A few kilometers east of us is a CSAT base. Avoid it entirely—it's heavily defended.</Original> 
+				<Italian>A qualche chilometro ad Est da noi c'e' una base CSAT. Evitatela assolutamente perche' e' pesantemente difesa.</Italian>
+			</Key>
+			<Key ID="STR_dialogue_chat_line_8"> 
+				<Original>AAF forces are allied and stationed in Sofia. According to intel, AAF and CSAT are fighting for control of the city.</Original> 
+				<Italian>Le forze AAF sono alleate e presenti a Sofia. Secondo le informazioni AAF e CSAT stanno combattendo per il controllo della citta' di Sofia.</Italian>
+			</Key>
+			<Key ID="STR_dialogue_chat_line_9"> 
+				<Original>That's all I've got for you. Good luck out there, soldiers!</Original> 
+				<Italian>Questo e' tutto quello che ho per voi. Buona fortuna la' fuori soldati!</Italian>
+			</Key>
+			<Key ID="STR_chat2_line_1"> 
+				<Original>Alpha 1-1, this is Crossroad.</Original> 
+				<Italian>Alpha 1-1, qui Crossroad.</Italian>
+			</Key>
+			<Key ID="STR_chat2_line_2"> 
+				<Original>The intel you recovered indicates that a high-ranking officer will visit the outpost this morning.</Original> 
+				<Italian>Le informazioni che avete recuperato indicano che un importante ufficiale questa mattina visitera' l'avamposto.</Italian>
+			</Key>
+			<Key ID="STR_chat2_line_3"> 
+				<Original>This is an opportunity we can't miss.</Original> 
+				<Italian>E' un occasione che non deve sfuggirci.</Italian>
+			</Key>
+			<Key ID="STR_chat2_line_4"> 
+				<Original>Take your squad, head east, and kill him.</Original> 
+				<Italian>Prendi la tua squadra e raggiungilo verso est, uccidetelo.</Italian>
+			</Key>
+			<Key ID="STR_chat2_line_5"> 
+				<Original>Once it's done, proceed to the contact in Sofia.</Original> 
+				<Italian>Una volta fatto raggiungere il contatto a Sofia.</Italian>
+			</Key>
+			<Key ID="STR_chat2_line_6"> 
+				<Original>We'll update you if we have more details. Crossroad out.</Original> 
+				<Italian>In caso di dettagli vi aggiorniamo. Crossroad chiudo.</Italian>
+			</Key>
+			<Key ID="STR_chat3_line_1"> 
+				<Original>Finally! It's a damn mess here. I was about to leave.</Original> 
+				<Italian>Finalmente! E' un dannato casino qui. Stavo per andarmene via.</Italian>
+			</Key>
+			<Key ID="STR_chat3_line_2"> 
+				<Original>CSAT got a tip-off about AAF movements, so they organized a counteroffensive in record time.</Original> 
+				<Italian>La CSAT ha ricevuto una soffiata di spostamenti AAF, quindi hanno organizzato una controffensiva in tempi record.</Italian>
+			</Key>
+			<Key ID="STR_chat3_line_3"> 
+				<Original>I've got a helicopter hidden behind an orchard southeast of here, just outside the city. You can use it to evacuate—if enemy forces haven’t found it first.</Original> 
+				<Italian>Ho un elicottero nascosto dietro un orchidea a sud-est, appena fuori citta'. Potrete usarlo per evacuare se le forze nemiche non l'hanno trovato prima di voi.</Italian>
+			</Key>
+			<Key ID="STR_chat3_line_4"> 
+				<Original>There’s another high-priority target for you on the way out.</Original> 
+				<Italian>C'e' un altro importante obiettivo per voi mentre ve ne andrete.</Italian>
+			</Key>
+			<Key ID="STR_chat3_line_5"> 
+				<Original>The power plant south of here supplies energy to the city and the enemy outpost. Destroy all transformers on the north side. One well-placed charge should do it.</Original> 
+				<Italian>La centrale elettrica a sud di qui da energia alla citta' e all'avamposto nemico. Distruggete tutti i trasformatori sul versante nord della centrale. Una carica piazzata bene puo' funzionare.</Italian>
+			</Key>
+			<Key ID="STR_chat3_line_6"> 
+				<Original>It's usually well defended, but the troops are tied up in the city, so resistance should be light.</Original> 
+				<Italian>Solitamente e' ben difesa, ma i soldati sono impegnati nella citta' quindi ci sara' poca resistenza.</Italian>
+			</Key>
+			<Key ID="STR_chat3_line_7"> 
+				<Original>Once you're done, head south into the green zone. Good luck.</Original> 
+				<Italian>Una volta li, andate a Sud, in zona verde. Buona fortuna.</Italian>
+			</Key>
+		</Container>
+	</Package>
+</Project>

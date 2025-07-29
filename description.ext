@@ -1,81 +1,104 @@
 onLoadName = "Clandestine Sunrise";
 onLoadMission = "Guida una squadra di ricognizione, distruggendo obiettivi nemici furtivamente e assassinando ufficiali.";
-author = "Navarre/Ombra (ARMA ITA) Edit";
-loadScreen = "images\loadScreen.jpg";
-overviewPicture = "images\loadScreen.jpg";
-
-Respawn = 3;
-RespawnDelay = 4;
+onLoadName = "$STR_INF_scenario_title";
+onLoadMission = "$STR_INF_scenario_description";
+author = "Navarre/Rallo (Formerly: Ombra) Edit";
+loadScreen = "RalloFramework\images\loadScreen.jpg";
+overviewPicture = "RalloFramework\images\loadScreen.jpg";
 
 disabledAI=1;
-enableDebugConsole = 1;
+enableDebugConsole = 2;
+
+#include "RalloFramework\definitions\descriptionDefinitions.h"
 
 class Header
 {
 	gameType = COOP; 
 	minPlayers = 1; 
-	maxPlayers = 5;
+	maxPlayers = 8;
 };
 
 class CfgSounds
 {
 	sounds[] = {radio1a,radio1b,radio2a,radio2b,radio2c,voice1,voice2,fsexit};
-	
 	class fsexit
 	{
 		name = "fsexit"; 
 		sound[] = {\sounds\fsexit.ogg, 1, 1.0}; 
 		titles[] = {};
 	};
-
 	class radio1a
 	{
 		name = "radio1a"; 
 		sound[] = {\sounds\radio1a.ogg, 1, 1.0}; 
 		titles[] = {};
 	};
-
 	class radio1b
 	{
 		name = "radio1b"; 
 		sound[] = {\sounds\radio1b.ogg, 1, 1.0}; 
 		titles[] = {};
 	};
-
 	class radio2a
 	{
 		name = "radio2a"; 
 		sound[] = {\sounds\radio2a.ogg, 1, 1.0}; 
 		titles[] = {};
 	};
-
 	class radio2b
 	{
 		name = "radio2b"; 
 		sound[] = {\sounds\radio2b.ogg, 1, 1.0}; 
 		titles[] = {};
 	};
-
 	class radio2c
 	{
 		name = "radio2c"; 
 		sound[] = {\sounds\radio2c.ogg, 1, 1.0}; 
 		titles[] = {};
 	};
-
 	class voice1
 	{
 		name = "voice1"; 
 		sound[] = {\sounds\voice1.ogg, db+10, 1.0}; 
 		titles[] = {};
 	};
-
 	class voice2
 	{
 		name = "voice2"; 
 		sound[] = {\sounds\voice2.ogg, db+10, 1.0}; 
 		titles[] = {};
 	};
-
-
+};
+//PARAMETRI DI GIOCO
+class Params
+{
+	class OmbraRandomWeather
+	{
+		title = "Weather"; 
+		values[] = {0,1}; 
+		texts[] = {"Random","Mission default"};
+		default = 1; 
+	};
+	class OmbraStamina
+	{
+		title = "Stamina";
+		values[] = {0,1};
+		texts[] = {"Off","On"};
+		default = 0;
+	};	
+	class OmbraRealtime
+	{
+		title = "Mission time";
+		values[] = {0,1,2};
+		texts[] = {"Random","Real-Time","Mission default"};
+		default = 2;
+	};
+	class OmbraRevive
+	{
+		title = "Revive";
+		values[] = {0,1,2,3};
+		texts[] = {"Only medics can revive","All players can revive (FAK)","All player can revive (Medkit)","No revive"};
+		default = 1;
+	};
 };

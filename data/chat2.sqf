@@ -1,17 +1,17 @@
-[West, "HQ"] sideChat "Alpha 1-1, qui Crossroad.";
+[West, "HQ"] sideChat format["%1", localize "STR_chat2_line_1"];
 playSound "radio2a";
 sleep 5;
-[West, "HQ"] sideChat "Le informazioni che avete recuperato indicano che un importante ufficiale questa mattina visitera' l'avamposto.";
+[West, "HQ"] sideChat format["%1", localize "STR_chat2_line_2"];
 playSound "radio2b";
 sleep 15;
-[West, "HQ"] sideChat "E' un occasione che non deve sfuggirci.";
+[West, "HQ"] sideChat format["%1", localize "STR_chat2_line_3"];
 playSound "radio2c";
 sleep 5;
-[West, "HQ"] sideChat "Prendi la tua squadra e raggiungilo verso est, uccidetelo.";
+[West, "HQ"] sideChat format["%1", localize "STR_chat2_line_4"];
 sleep 10;
-[West, "HQ"] sideChat "Una volta fatto raggiungere il contatto a Sofia.";
+[West, "HQ"] sideChat format["%1", localize "STR_chat2_line_5"];
 sleep 10;
-[West, "HQ"] sideChat "In caso di dettagli vi aggiorniamo. Crossroad chiudo."; 
+[West, "HQ"] sideChat format["%1", localize "STR_chat2_line_6"];
 
 
 
