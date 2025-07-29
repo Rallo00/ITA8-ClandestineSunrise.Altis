@@ -1,0 +1,20 @@
+playSound "voice1";
+sleep 1;
+Navarre globalChat "Ehi qui! Felice di vedervi.";
+sleep 6;
+Navarre globalChat "Ho informazioni e obiettivi per voi. Fara' giorno presto quindi saro' veloce."; 
+sleep 7;
+Navarre globalChat "Sono presenti numerosi avamposti nemici a nordest di qui.";
+sleep 3; 
+Navarre globalChat "Hanno un Tigris nel campo piu' a nord-ovest e dovrete distruggerlo. Spero abbiate delle cariche Satchel con voi.";
+sleep 8;
+Navarre globalChat "C'e' anche un carico di convoglio NATO che e' stato rubato. Le casse sono tenute al campo ad est. Eliminate i nemici, rifornitevi e fate saltare tutto.";
+sleep 11;
+Navarre globalChat "Gli avamposti sono sorvegliati da un ufficiale che si rintana in una casa tra gli avamposti. Pensiamo che abbia informazioni importanti con lui. Uccidetelo e recuperatele.";
+sleep 10;
+Navarre globalChat "A qualche chilometro ad Est da noi c'e' una base CSAT. Evitatela assolutamente perche' e' pesantemente difesa.";
+sleep 6;
+Navarre globalChat "Le forze AAF sono alleate e presenti a Sofia. Secondo le informazioni AAF e CSAT stanno combattendo per il controllo della citta' di Sofia.";
+sleep 9;
+Navarre globalChat "Questo e' tutto quello che ho per voi. Buona fortuna la' fuori soldati!";
+

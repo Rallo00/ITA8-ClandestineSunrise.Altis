@@ -1,0 +1,1 @@
+["Initialize"] call BIS_FNC_DYNAMICGROUPS;
