@@ -194,5 +194,71 @@
 				<Italian>Una volta li, andate a Sud, in zona verde. Buona fortuna.</Italian>
 			</Key>
 		</Container>
+		<Container name="dialogues">
+			<Key ID="STR_tsk_1_main">
+			 	<Original>Meet at the ruins</Original> 
+    			<Italian>Incontrati alle rovine</Italian>
+			</Key>
+			<Key ID="STR_tsk_1_desc">
+				<Original>Reach the informant to receive missions and information.</Original>
+			 	<Italian>Raggiungi l'informatore per ricevere missioni e informazioni.</Italian>
+			</Key>
+			<Key ID="STR_tsk_2_main">
+			 	<Original>Destroy ZSU-39 Tigris</Original> 
+    			<Italian>Distruggi ZSU-39 Tigris</Italian>
+			</Key>
+			<Key ID="STR_tsk_2_desc">
+			 	<Original>Locate the ZSU-39 Tigris in the west camp and destroy it.</Original> 
+    			<Italian>Localizza ZSU-39 Tigris nel campo ovest e distruggilo.</Italian>
+			</Key>
+			<Key ID="STR_tsk_3_main">
+			 	<Original>Neutralize commander</Original> 
+    			<Italian>Neutralizza comandante</Italian>
+			</Key>
+			<Key ID="STR_tsk_3_desc">
+			 	<Original>Kill the CSAT commander. Gather any possible information about him.</Original> 
+    			<Italian>Uccidi il comandante CSAT. Raccogliere qualunque informazione possibile sul suo conto.</Italian>
+			</Key>
+			<Key ID="STR_tsk_4_main">
+			 	<Original>Meet at the ruins</Original> 
+    			<Italian>Incontrati alle rovine</Italian>
+			</Key>
+			<Key ID="STR_tsk_4_desc">
+			 	<Original>Find the stolen NATO crates in the east camp. Resupply and destroy everything.</Original> 
+    			<Italian>Trova le casse NATO rubate nel campo est. Rifornirsi e distruggere il tutto.</Italian>
+			</Key>
+			<Key ID="STR_tsk_5_main">
+			 	<Original>Neutralize officer</Original> 
+    			<Italian>Neutralizzare ufficiale</Italian>
+			</Key>
+			<Key ID="STR_tsk_5_desc">
+			 	<Original>There's a high-ranking officer in the outpost. Find a way to infiltrate the base and eliminate him at all costs.</Original> 
+    			<Italian>C'e' un ufficiale di alto rango nell'avamposto. Trovare un modo per entrare nella base ed eliminarlo ad ogni costo.</Italian>
+			</Key>
+			<Key ID="STR_tsk_6_main">
+			 	<Original>Meet the contact in Sofia</Original> 
+    			<Italian>Incontra il contatto a Sofia</Italian>
+			</Key>
+			<Key ID="STR_tsk_6_desc">
+			 	<Original>The contact is waiting for you in the church downtown.</Original> 
+    			<Italian>Il contatto vi attende nella chiesa in centro.</Italian>
+			</Key>
+			<Key ID="STR_tsk_7_main">
+			 	<Original>Destroy the power transformers</Original> 
+    			<Italian>Distruggi i trasformatori di corrente</Italian>
+			</Key>
+			<Key ID="STR_tsk_7_desc">
+			 	<Original>Use a satchel to destroy all the power generators.</Original> 
+    			<Italian>Usa una Satchel per distruggere tutti i generatori di corrente.</Italian>
+			</Key>
+			<Key ID="STR_tsk_8_main">
+			 	<Original>Evacuate</Original> 
+    			<Italian>Evacuazione</Italian>
+			</Key>
+			<Key ID="STR_tsk_8_desc">
+			 	<Original>Reach the green zone to evacuate.</Original> 
+    			<Italian>Raggiungi la zona verde per evacuare.</Italian>
+			</Key>
+		</Container>
 	</Package>
 </Project>
