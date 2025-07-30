@@ -1,0 +1,1 @@
+call compileFinal preprocessFileLineNumbers 'RalloFramework\FAR_revive\FAR_revive_init.sqf';

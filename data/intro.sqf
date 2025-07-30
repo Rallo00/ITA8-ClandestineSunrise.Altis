@@ -1,4 +1,4 @@
-sleep 7;
+sleep 15;
 playSound "radio1a";
 sleep 2;
-[West, "HQ"] sideChat "Procedere al punto d'infiltrazione sulla costa meridionale. Vi aspetta un contatto alleato alle rovine a nord di li."; 
+[West, "HQ"] sideChat format["%1", localize "STR_dialogue_intro"];
